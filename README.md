@@ -83,10 +83,19 @@ You should see an empty result — the variable `my_var` was only defined in the
 
 ## 3) Questions
 - Why do you think nested terminal sessions are useful?
+- we get flexability to deside which variables should be globalized ahd which dont.
+- 
 - What happened to the identifier `my_var`?
+- first it was visible only in the season of Bash and after we globalized the variable. That means we took a normal variable from one place in memory to otherone.
+- 
 - Can you explain it using the term **local identifier**?
+- it means if we make 1 variable to local identifier this variable is availible in all subshells and lands in [env] part of Bash.
+- 
 - What happened to `my_var`?
+- its became vissible to all "Kidsprocesses" or subprocesses.
+- 
 - Use the term **global identifier** in your explanation.
+- to make one Variable to global identifier we need to export this variable in env part of Shell
 
 
 ## 4) Advice
